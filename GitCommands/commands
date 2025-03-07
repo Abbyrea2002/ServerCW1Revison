@@ -1,0 +1,15 @@
+# Initialize repository
+git init
+
+# Clone repository
+git clone <repo-url>
+
+# Add and commit changes
+git add .
+git commit -m "Initial commit"
+
+# Push changes
+git push origin main
+
+# Pull latest changes
+git pull origin main

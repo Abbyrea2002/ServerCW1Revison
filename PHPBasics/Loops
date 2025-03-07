@@ -1,0 +1,8 @@
+<?php
+for($i = 0; $i < 5; $i++){
+    echo "Iteration: $i";
+}
+$colours = ["pink", "green", "purple"];
+foreach ($colours as $colour){
+    echo $colour;
+}

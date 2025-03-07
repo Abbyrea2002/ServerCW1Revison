@@ -1,0 +1,6 @@
+<?php
+$name = "john"; //String
+$age = 25; //integer
+$price = 19.99; //float
+$isStudent = true; //boolean
+$colours = ["red", "pink", "green"]; //array

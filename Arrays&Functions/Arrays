@@ -1,0 +1,6 @@
+<?php
+$fruits = ["apple", "banana", "cherry"];
+each $fruits[1]; //banana
+
+$person = ["name" => "Alice", "age" => "30"];
+echo $person["name"]; //alice

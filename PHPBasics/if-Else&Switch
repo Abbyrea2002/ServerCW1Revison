@@ -1,0 +1,13 @@
+<?php
+if($age >= 18){
+    echo "Adult";
+}else{
+    echo "Minor";
+}
+
+switch($grade){
+    case "A": echo "Excellent"; break;
+    case "B": echo "Good"; break;
+    default: echo "Try again";
+ 
+}
