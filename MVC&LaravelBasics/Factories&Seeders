@@ -1,0 +1,13 @@
+<?php
+// web.php (Routes)
+Route::get('/welcome', function() {
+    return view('welcome');
+});
+
+// Database Seeder Example
+class UserSeeder extends Seeder {
+    public function run() {
+        User::factory()->count(10)->create();
+    }
+}
+?>

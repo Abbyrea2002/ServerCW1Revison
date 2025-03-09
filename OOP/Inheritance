@@ -1,0 +1,16 @@
+<?php 
+class Animal{
+    public $name;
+    function makesound(){
+        return "Some sound";
+    }
+
+}
+class Dog extends Animal{
+    function makeSound(){
+        return "Bark";
+    }
+}
+$dog = new Dog();
+echo $dog->makeSound(); //Bark
+?>

@@ -1,0 +1,16 @@
+<?php
+class Car{
+    public $brand;
+    function setBrand($brand){
+        $this->brand = $brand;
+    }
+    function getBrand(){
+        return $this->brand;
+    }
+}
+$myCar = new Car();
+$myCar->setBrand("Toyota");
+echo $myCar->getBrand(); //Toyota
+
+
+?>

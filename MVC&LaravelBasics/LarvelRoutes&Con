@@ -1,0 +1,15 @@
+<?php
+// web.php (Routes)
+Route::get('/welcome', function() {
+    return view('welcome');
+});
+
+
+// Controller Example
+class UserController extends Controller {
+    public function show($id) {
+        return "User ID: " . $id;
+    }
+}
+
+?>
